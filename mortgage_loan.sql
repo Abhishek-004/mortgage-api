@@ -59,7 +59,7 @@ CREATE TABLE `applications` (
 
 LOCK TABLES `applications` WRITE;
 /*!40000 ALTER TABLE `applications` DISABLE KEYS */;
-INSERT INTO `applications` VALUES (1,'Noah','Olivia','1995-03-07','sangram9693@gmail.com','4222578965','927 Kimberly Way, MI','BGL8976TY','HP','2518 Sunset Drive, Watson','Software Engineer','5346','290','DBS','5359832','Saving',3,2,1,1,'2019-03-02 21:52:29',1,0,'2019-03-02 21:52:29',NULL,2),(2,'James','Isabella','2000-03-20','jems.is@gmail.com','8945789555','2518 Sunset Drive, Watson','GHT4532TU','Passport Dept.','1547 Woodland Drive, Chicago','Manager','8768','2351','HDFC','534527282','Current',3,3,1,1,'2019-03-02 23:08:51',2,0,'2019-03-02 23:08:51',NULL,3),(3,'Jayden','Layla','2019-03-06','jayden@gmail.com','6456456234','1780  Rockford Mountain Lane, WY','VSFS234KK','Microsoft',' 508 Virginia Street Chicago, IL','Technical Lead','10045','2789','ICICI','2342245643','Saving',1,NULL,0,1,'2019-03-02 23:16:36',3,0,'2019-03-02 23:16:36',NULL,3),(4,'John','Lillian','1994-03-06','john@gmail.com','2442424647','Carol J. Stephens 1635 Franklin Street Montgomery, AL ','FSFD2423D','IBM','Michael I. Days 3756 Preston Street Wichita','HR Manager','35345','1233','DSP','23133534','Current',2,3,1,1,'2019-03-02 23:20:57',4,0,'2019-03-02 23:20:57',NULL,3),(5,'Luke','Mila','1997-03-05','luke@gmail.com','4442123987','Donald M. Palmer 2595 Pearlman Avenue Sudbury, MA','BGU8789Y','Govt. Teacher','Micheal R. Porterfield 508 Virginia Street Chicago','Principle','23412','3123','HDFC','93213','Current',1,NULL,0,1,'2019-03-02 23:24:24',5,0,'2019-03-02 23:24:24',NULL,2),(6,'Jack','Eleanor','1999-07-05','jack@gmail.com','8864342546','Nathan K. Flores 1516 Holt Street West Palm Beach, FL','DGF64646G','TCS','Avenue Sudbury, MA 01776 Phone:293-112-459	Micheal R. Porterfield 508 Virginia Street Chicago','Software Engineer','56454','3422','ICICI','242341321','Saving',4,2,1,1,'2019-03-02 23:27:32',6,0,'2019-03-02 23:27:32',NULL,2),(7,'Levi','Luna','2000-02-06','levi@gmail.com','5756756324','Kelley A. Fleming 196 Woodside Circle Mobile, FL ','SDGS4654G','DXC Technology','Michael I. Days 3756 Preston Street Wichita, KS','Senior Manager ','64545','3242','ICICI','112312','Saving',1,NULL,0,0,'2019-03-02 23:30:18',7,0,'2019-03-02 23:30:18',NULL,NULL),(8,'Ryan','Hazel','1995-11-06','ryan@gmail.com','5557573353','Donald M. Palmer 2595 Pearlman Avenue Sudbury','DSFS343F','IBM','Michael I. Days 3756 Preston Street Wichita','Software Engineer','3545','1233','HDFC','24324','Current',1,NULL,0,0,'2019-03-02 23:33:10',8,0,'2019-03-02 23:33:10',NULL,NULL),(9,'Ian','Quinn','1994-06-05','ian@gmail.com','4432394632','Micheal R. Porterfield 508 Virginia Street Chicago','SDF3424DF','wipro','athan K. Flores 1516 Holt Street West Palm Beach, FL','Software Engineer','46454','1234','DBS','13422341212312312','Saving',4,3,1,1,'2019-03-02 23:36:05',9,0,'2019-03-02 23:36:05',NULL,3);
+INSERT INTO `applications` VALUES (1,'Noah','Olivia','1995-03-07','noah.olivia@gmail.com','4222578965','927 Kimberly Way, MI','BGL8976TY','HP','2518 Sunset Drive, Watson','Software Engineer','5346','290','DBS','5359832','Saving',3,2,1,1,'2019-03-02 21:52:29',1,0,'2019-03-02 21:52:29',NULL,2),(2,'James','Isabella','2000-03-20','jems.is@gmail.com','8945789555','2518 Sunset Drive, Watson','GHT4532TU','Passport Dept.','1547 Woodland Drive, Chicago','Manager','8768','2351','HDFC','534527282','Current',3,3,1,1,'2019-03-02 23:08:51',2,0,'2019-03-02 23:08:51',NULL,3),(3,'Jayden','Layla','2019-03-06','jayden@gmail.com','6456456234','1780  Rockford Mountain Lane, WY','VSFS234KK','Microsoft',' 508 Virginia Street Chicago, IL','Technical Lead','10045','2789','ICICI','2342245643','Saving',1,NULL,0,1,'2019-03-02 23:16:36',3,0,'2019-03-02 23:16:36',NULL,3),(4,'John','Lillian','1994-03-06','john@gmail.com','2442424647','Carol J. Stephens 1635 Franklin Street Montgomery, AL ','FSFD2423D','IBM','Michael I. Days 3756 Preston Street Wichita','HR Manager','35345','1233','DSP','23133534','Current',2,3,1,1,'2019-03-02 23:20:57',4,0,'2019-03-02 23:20:57',NULL,3),(5,'Luke','Mila','1997-03-05','luke@gmail.com','4442123987','Donald M. Palmer 2595 Pearlman Avenue Sudbury, MA','BGU8789Y','Govt. Teacher','Micheal R. Porterfield 508 Virginia Street Chicago','Principle','23412','3123','HDFC','93213','Current',1,NULL,0,1,'2019-03-02 23:24:24',5,0,'2019-03-02 23:24:24',NULL,2),(6,'Jack','Eleanor','1999-07-05','jack@gmail.com','8864342546','Nathan K. Flores 1516 Holt Street West Palm Beach, FL','DGF64646G','TCS','Avenue Sudbury, MA 01776 Phone:293-112-459	Micheal R. Porterfield 508 Virginia Street Chicago','Software Engineer','56454','3422','ICICI','242341321','Saving',4,2,1,1,'2019-03-02 23:27:32',6,0,'2019-03-02 23:27:32',NULL,2),(7,'Levi','Luna','2000-02-06','levi@gmail.com','5756756324','Kelley A. Fleming 196 Woodside Circle Mobile, FL ','SDGS4654G','DXC Technology','Michael I. Days 3756 Preston Street Wichita, KS','Senior Manager ','64545','3242','ICICI','112312','Saving',1,NULL,0,0,'2019-03-02 23:30:18',7,0,'2019-03-02 23:30:18',NULL,NULL),(8,'Ryan','Hazel','1995-11-06','ryan@gmail.com','5557573353','Donald M. Palmer 2595 Pearlman Avenue Sudbury','DSFS343F','IBM','Michael I. Days 3756 Preston Street Wichita','Software Engineer','3545','1233','HDFC','24324','Current',1,NULL,0,0,'2019-03-02 23:33:10',8,0,'2019-03-02 23:33:10',NULL,NULL),(9,'Ian','Quinn','1994-06-05','ian@gmail.com','4432394632','Micheal R. Porterfield 508 Virginia Street Chicago','SDF3424DF','wipro','athan K. Flores 1516 Holt Street West Palm Beach, FL','Software Engineer','46454','1234','DBS','13422341212312312','Saving',4,3,1,1,'2019-03-02 23:36:05',9,0,'2019-03-02 23:36:05',NULL,3);
 /*!40000 ALTER TABLE `applications` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -122,8 +122,13 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES (1,'Mason','Charlotte','Male','admin@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 22:20:40',NULL,'2019-03-02 22:20:40',NULL,0,1),(2,'Elijah','Amelia','Female','sangrambadi09@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,0),(3,'Sunny','Glen','Male','skglen628@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:37:53',NULL,'2019-03-02 23:37:53',NULL,0,0);
-/*!40000 ALTER TABLE `employee` ENABLE KEYS */;
+INSERT INTO `employee` VALUES (1,'Mason','Charlotte','Male','admin@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:20:40',NULL,'2019-03-02 22:20:40',NULL,0,1),
+(2,'Suresh','Redi','Female','suresh.reddy@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,0),
+(3,'Sunny','Glen','Male','skglen628@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:37:53',NULL,'2019-03-02 23:37:53',NULL,0,0),
+(4,'Vivek','Jian','Male','vivek.jain@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,0),
+(5,'Vaibhav','Bhokare','Male','suresh.reddy@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,1),
+(6,'Sai','Krishna','Male','sai.krishna@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,0);
+
 UNLOCK TABLES;
 
 --
@@ -169,8 +174,9 @@ CREATE TABLE `tasks` (
   `modifed_on` datetime DEFAULT NULL,
   `modified_by` int(11) DEFAULT NULL,
   `is_delete` tinyint(4) DEFAULT '0',
+  `status` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`task_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -179,7 +185,7 @@ CREATE TABLE `tasks` (
 
 LOCK TABLES `tasks` WRITE;
 /*!40000 ALTER TABLE `tasks` DISABLE KEYS */;
-INSERT INTO `tasks` VALUES (1,0,2,'2019-03-08 05:30:00','<ol>\n	<li>Verify Customer details</li>\n	<li>Change status</li>\n</ol>\n',NULL,'2019-03-02 22:36:05',1,'2019-03-02 22:36:05',1,0),(2,0,2,'2019-03-15 05:30:00','<ol>\n	<li>verify all the task</li>\n	<li>verify all applications</li>\n</ol>\n',NULL,'2019-03-02 23:45:52',1,'2019-03-02 23:45:52',1,0);
+INSERT INTO `tasks` VALUES (1,0,2,'2019-03-08 05:30:00','<ol>\n	<li>Verify Customer details</li>\n	<li>Change status</li>\n</ol>\n',NULL,'2019-03-02 22:36:05',1,'2019-03-02 22:36:05',1,0,'Completed'),(2,0,2,'2019-03-15 05:30:00','<ol>\n	<li>verify all the task</li>\n	<li>verify all applications</li>\n</ol>\n',NULL,'2019-03-02 23:45:52',1,'2019-03-02 23:45:52',1,0,'Completed'),(3,0,2,'2019-03-13 05:30:00','<p>Verify all application</p>\n',NULL,'2019-03-03 13:03:46',1,'2019-03-03 13:03:46',1,0,'Open');
 /*!40000 ALTER TABLE `tasks` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -213,7 +219,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Noah','Olivia','Female','sangram9693@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 21:48:29',NULL,'2019-03-02 21:48:29',NULL,0),(2,'James','Isabella','Female','jems.is@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:02:46',NULL,'2019-03-02 23:02:46',NULL,0),(3,'Jayden','Layla','Male','jayden@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:13:34',NULL,'2019-03-02 23:13:34',NULL,0),(4,'John','Lillian','Male','john@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:18:05',NULL,'2019-03-02 23:18:05',NULL,0),(5,'Luke','Mila','Male','luke@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:21:33',NULL,'2019-03-02 23:21:33',NULL,0),(6,'Jack','Eleanor','Male','jack@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:25:16',NULL,'2019-03-02 23:25:16',NULL,0),(7,'Levi','Luna','Female','levi@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:28:10',NULL,'2019-03-02 23:28:10',NULL,0),(8,'Ryan','Hazel','Female','ryan@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:31:05',NULL,'2019-03-02 23:31:05',NULL,0),(9,'Ian','Quinn','Female','ian@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:34:05',NULL,'2019-03-02 23:34:05',NULL,0);
+INSERT INTO `users` VALUES (1,'Noah','Olivia','Female','noah.olivia@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 21:48:29',NULL,'2019-03-02 21:48:29',NULL,0),(2,'James','Isabella','Female','jems.is@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:02:46',NULL,'2019-03-02 23:02:46',NULL,0),(3,'Jayden','Layla','Male','jayden@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:13:34',NULL,'2019-03-02 23:13:34',NULL,0),(4,'John','Lillian','Male','john@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:18:05',NULL,'2019-03-02 23:18:05',NULL,0),(5,'Luke','Mila','Male','luke@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:21:33',NULL,'2019-03-02 23:21:33',NULL,0),(6,'Jack','Eleanor','Male','jack@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:25:16',NULL,'2019-03-02 23:25:16',NULL,0),(7,'Levi','Luna','Female','levi@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:28:10',NULL,'2019-03-02 23:28:10',NULL,0),(8,'Ryan','Hazel','Female','ryan@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:31:05',NULL,'2019-03-02 23:31:05',NULL,0),(9,'Ian','Quinn','Female','ian@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:34:05',NULL,'2019-03-02 23:34:05',NULL,0);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -226,4 +232,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-03-02 23:57:55
+-- Dump completed on 2019-03-03 13:12:24
