@@ -18,7 +18,7 @@
 --
 -- Table structure for table `applications`
 --
-CREATE database mortgage_loan_db;
+CREATE database IF NOT EXISTS mortgage_loan_db;
 use mortgage_loan_db;
 DROP TABLE IF EXISTS `applications`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
