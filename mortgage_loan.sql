@@ -127,7 +127,7 @@ INSERT INTO `employee` VALUES (1,'Mason','Charlotte','Male','admin@stackaero.com
 (2,'Suresh','Redi','Female','suresh.reddy@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,0),
 (3,'Sunny','Glen','Male','skglen628@gmail.com','Xuq6t7Fr/Dg=','2019-03-02 23:37:53',NULL,'2019-03-02 23:37:53',NULL,0,0),
 (4,'Vivek','Jian','Male','vivek.jain@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,0),
-(5,'Vaibhav','Bhokare','Male','suresh.reddy@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,1),
+(5,'Vaibhav','Bhokare','Male','vaibhav.bhokare@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,1),
 (6,'Sai','Krishna','Male','sai.krishna@stackaero.com','Xuq6t7Fr/Dg=','2019-03-02 22:34:49',NULL,'2019-03-02 22:34:49',NULL,0,0);
 
 UNLOCK TABLES;
