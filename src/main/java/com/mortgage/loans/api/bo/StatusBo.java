@@ -14,7 +14,7 @@ import com.mortgage.loans.api.utils.Constants;
 public class StatusBo {
 
 	@Autowired
-	private IStatusDao iStatusDao;
+	private com.mortgage.loans.api.dao.IStatusDao iStatusDao;
 
 	public Map<String, Object> saveUpdate(Status status) {
 		Status s = new Status();
@@ -53,6 +53,19 @@ public class StatusBo {
 			e.printStackTrace();
 		}
 		return list;
+	}
+	
+	public Map<String, Object>  checkDb() {
+		Map<String, Object> rsMap = new HashMap<>();
+		rsMap.put("message", Constants.FAILED);
+		List<Status> list=new ArrayList<>();
+		try {
+			list=(List<Status>) iStatusDao.findAll();
+			rsMap.put("message", Constants.SUCCESS);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		return rsMap;
 	}
 
 }

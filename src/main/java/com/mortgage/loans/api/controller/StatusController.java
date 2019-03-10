@@ -1,6 +1,7 @@
 package com.mortgage.loans.api.controller;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -77,6 +78,26 @@ public class StatusController {
 			e.printStackTrace();
 		}
 		return new ResponseEntity<Status>(s, status);
+	}
+	
+	@RequestMapping(value="/info", method=RequestMethod.GET)
+	public ResponseEntity<Map<String, Object>> checkConnection() {
+		HttpStatus status = HttpStatus.INTERNAL_SERVER_ERROR;
+		Map<String, Object> rsMap = new HashMap<>();
+		try {
+			Map<String, Object> drsMap = statusBo.checkDb();
+			if(drsMap.get("message").equals(Constants.SUCCESS)) {				
+				status = HttpStatus.OK;
+				rsMap.put("name", "mortgage-api");
+				rsMap.put("currentTime", new Date());
+				rsMap.put("host", "loansapp-aw02");
+				rsMap.put("database", "localhost:3306/mortgage_db");
+				rsMap.put("status", "connected");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return new ResponseEntity<Map<String, Object>>(rsMap, status);
 	}
 	
 }
