@@ -1,5 +1,19 @@
-FROM tomcat
+# base image
+FROM stackaero/aero-tomcat:1.0.4
 
-#RUN mkdir /usr/local/tomcat/webapps/studentapp
+# set working directory
+WORKDIR /opt/bitnami/tomcat
 
-COPY ./target/MortgageLoan-API-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/mortgage-api.war
+
+ENV GROUPID com.acme.mortgage
+ENV ARTIFACT mortgage-api
+ENV REPOSITORY https://artifactory-standalone-repodev5.cloud.stacklynx.com/artifactory/aero-repo
+ENV SETUP_SCRIPT /home/bitnami/bootstrap-app.sh
+
+COPY ./bootstrap-app.sh $SETUP_SCRIPT
+
+RUN  /home/bitnami/download-artifact.sh 
+
+ENV REPOSITORY ""
+ENV GROUPID ""
+
