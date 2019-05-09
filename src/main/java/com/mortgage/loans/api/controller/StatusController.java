@@ -93,6 +93,8 @@ public class StatusController {
 				rsMap.put("host", "loansapp-aw02");
 				rsMap.put("database", "localhost:3306/mortgage_db");
 				rsMap.put("status", "connected");
+				rsMap.put("version", "v1.1");
+
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
