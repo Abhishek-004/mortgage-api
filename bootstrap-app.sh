@@ -8,7 +8,7 @@ if [ ! -z "${DB_HOST}" ] && [ ! -z "${DB_NAME}" ]; then
 
 cat <<EOF > $TOMCAT_HOME/lib/$ARTIFACT/application.properties
 spring.datasource.url=jdbc:mysql://${DB_HOST}:3306/${DB_NAME}
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
 spring.datasource.username=${DB_USER}
 spring.datasource.password=${DB_PASSWORD}
 spring.mail.host=smtp.gmail.com
